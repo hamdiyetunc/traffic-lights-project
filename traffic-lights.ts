@@ -41,3 +41,5 @@ class EventEmmiter {
 
 const car1 = new Cars({ trafficLamp: 'green' });
 console.log(car1)
+
+// git push
