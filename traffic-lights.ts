@@ -28,18 +28,9 @@ class Cars {
     }
 }
 
-class EventEmmiter {
+class Database {
     protected subscribers: Function[] = []
-
-    subscribe(cb: Function) {
-        this.subscribers.push(cb)
     }
-    unsubscribe(cb: Function) {
-        this.subscribers.filter((fn ) => fn !== cb) 
-    }
-}
 
 const car1 = new Cars({ trafficLamp: 'green' });
 console.log(car1)
-
-// git push
