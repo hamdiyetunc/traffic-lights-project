@@ -26,7 +26,7 @@ var TrafficLightController = /** @class */ (function () {
         this.yellow = 1;
         this.green = 2;
         // Array to store observer instances
-        this.observers = []; // Observer icin bir interface olustur.
+        this.observers = []; // You can create an interface for Observer instead
     }
     // Method to register observers
     TrafficLightController.prototype.registerObserver = function (observer) {
