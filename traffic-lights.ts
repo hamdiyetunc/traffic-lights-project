@@ -31,7 +31,7 @@ class Car {
     private readonly yellow: number= 1;
     private readonly green: number = 2;
     // Array to store observer instances
-    observers: Database[] = []; // Observer icin bir interface olustur.
+    observers: Database[] = []; // You can create an interface for Observer instead
   
     // Method to register observers
     registerObserver(observer: Database) {
