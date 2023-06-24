@@ -110,7 +110,7 @@ class Car {
       }
     }
   
-    // Not yet completed.
+    // Not yet completed
     save(message: string) {
       console.log(`Saving in the database: ${message}`);
     }

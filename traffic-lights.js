@@ -111,6 +111,7 @@ var Database = /** @class */ (function () {
             }
         }
     };
+    // Not yet completed
     Database.prototype.save = function (message) {
         console.log("Saving in the database: ".concat(message));
     };
